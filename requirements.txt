@@ -1,0 +1,32 @@
+# ============================================================
+#  Walid's Checker — Requirements
+#  Python 3.8+
+#  Install: pip install -r requirements.txt
+# ============================================================
+
+# Discord bot framework
+discord.py>=2.3.2
+
+# HTTP requests
+requests>=2.31.0
+
+# Async file I/O (used by $check, $proxies attachment upload)
+aiofiles>=23.2.1
+
+# Colored console output
+colorama>=0.4.6
+
+# HTTP connection pooling (bundled with requests but pinned for safety)
+urllib3>=2.0.7
+
+# SOCKS proxy support (/proxies socks4/socks5)
+PySocks>=1.7.1
+
+# ============================================================
+#  OPTIONAL — Hypixel ban checking + DonutLootBot
+#  Only install this if you want live server connection features.
+#  pyCraft is not on PyPI — install directly from GitHub:
+#
+#    pip install git+https://github.com/ammaraskar/pyCraft.git
+#
+# ============================================================
